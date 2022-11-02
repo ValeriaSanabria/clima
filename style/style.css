@@ -3,3 +3,17 @@ main{
     background-size: cover;
     color: antiquewhite;
 }
+
+.table{
+    color: white;
+}
+
+.card{
+    color: black;
+    margin: 0.5em;
+    width: calc(100%/3);
+}
+
+.cards-wrapper{
+    display: flex;
+}
