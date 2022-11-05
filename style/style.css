@@ -1,42 +1,58 @@
-main{
+main {
     background-image: url("img/fondo.jpeg");
     background-size: cover;
     color: antiquewhite;
 }
 
-.table{
-    color: white;
-    background-color: rgba(255, 255, 255, 0.363);
-    border-radius: 15px;
+.table::-webkit-scrollbar {
+    width: 15px;
 }
 
-.card{
+.table::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+
+.table {
+    border-radius: 15px;
+    overflow-y: scroll;
+    height: 200px;
+    width: 200px;
+}
+
+.card {
     color: black;
     margin: 0.5em;
     width: calc(100%/3);
 }
 
-.cards-wrapper{
+.cards-wrapper {
     display: flex;
-}
-#dia{
-    text-align: center;
-    justify-content: center;
-    display: flex;
-}
-#sensaciont{
-    text-align: left;
-    
 }
 
-#prep1, #wind1,#wind,#precip{
+#dia {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+#sensaciont {
+    text-align: left;
+
+}
+
+#prep1,
+#wind1,
+#wind,
+#precip {
     text-align: center;
     justify-content: center;
 }
-#card{
+
+#card {
     justify-content: center;
 }
-#carru{
-    background-color:rgba(5, 5, 5, 0.5);
+
+#carru {
+    background-color: rgba(5, 5, 5, 0.5);
     border-radius: 15px;
 }
